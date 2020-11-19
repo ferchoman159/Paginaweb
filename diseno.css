@@ -1,0 +1,59 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 1rem;
+}
+
+body{
+   background-image: url(img/fondo.jpg);
+}
+h1{
+	font-family: monospace;
+	text-align: center;
+}
+.titulo{
+	text-align: center;
+	padding: 1rem;
+	color: white;
+	font-family: fantasy;
+}
+.contenido{
+	width:78rem;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.columnas{
+	color: white;
+	text-align: center;
+	justify-content: center;
+	margin:auto;
+}
+.informacion{
+	color: white;
+	text-align: justify;
+	padding: 1rem;
+	
+}
+.imagen{
+	margin: auto;
+	display: block;
+	border: .5rem white;
+	width: 28rem;
+	height: 15rem;
+}
+.formulario{
+	height:124px;
+    width:350px;
+    padding: 1.5rem 1rem;
+    background-image: url(img/formulario.jpg);
+    text-align: center;
+    display:block;
+  	margin-left: auto;
+ 	margin-right: auto;
+}
+.iconos{
+	text-align: center;
+	align-content: flex-end;
+}
+   
